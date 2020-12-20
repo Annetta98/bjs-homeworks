@@ -7,12 +7,11 @@ function averageMark(a, g, p) {
 
 function sayHello(userName) {
     let myName = userName;
-    let text = 'Привет, мир! Меня зовут ';
-    let message = text + myName;
+    let message = ( `Привет, мир! Меня зовут ${myName}`);
     return message;
    }
 
-function calculateFormula(x,y,z) {
+function calculateFormula() {
     let x = 2;
     let y = 22;
     let z = 0;
