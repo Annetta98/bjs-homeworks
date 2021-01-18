@@ -1,25 +1,31 @@
 "use strict"
-function getResult(){
+function getResult(a,b,c){
     let a = 2;
     let b = 4;
     let c = 3;
-    let formula = (a*x** + b*x + c==0);
-    let D = b** - 4*a*c;
+    let D = b**2 - 4*a*c;
     if (D < 0){
-      console.log [];
+      x = [];
     }
     if (D == 0){
-        console.log [-b/2a];
+      x = [-b/(2*a)];
     }
     if (D > 0){
-        console.log [-b+Math.sqrt(D)/2a];
-        console.log [-b-Math.sqrt(D)/2a];
+      x = [(-b+Math.sqrt(D))/(2*a)];
+      x = [(-b-Math.sqrt(D))/(2*a)];
   }
   return x
 
 function getAverageMark(marks){
-    let reting [];
-    if 
+     let marks = '';
+      marks.slice(0,5)
+
+      if (marks.lenghts == 0){
+        return 0;
+    }
+    if (marks.lenghts >= 5){
+        return marks/marks.lenghts;
+    }
 
     // код для задачи №2 писать здесь
     // return averageMark;
